@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>objects</title>
+</head>
+<body>
+    <script>
+       /* const product = {
+
+            name : "Gummy Bears",
+            price : 1.99
+        };
+        console.log(product);*/
+
+        const product = {
+            name : 'shirt',
+            'delivery-time' : '1 day' ,
+            rating : {
+                star : 4.5 , 
+                count : 87
+            },
+            fun : function function1 () {
+                console.log('fun');
+            }
+        };
+        console.log(product);
+        console.log(product.name);
+        console.log(product['name']);
+        console.log(product['delivery-time']);
+        console.log(product.rating.star);
+        console.log(product.rating.count);
+        product.fun();  
+
+        console.log(JSON.stringify(product));
+        console.log(JSON.parse(JSON.stringify(product)));
+    </script>
+</body>
+</html>
