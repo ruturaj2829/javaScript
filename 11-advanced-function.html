@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>advanced functions</title>
+</head>
+<body>
+    <button class="button" >
+        click me
+    </button>
+    <script>
+      /*
+      const buttonElement = document.querySelector('button');
+
+
+        const eventListenen = () => {
+            console.log('Hello World');
+        }   
+        buttonElement.addEventListener('click', eventListenen);
+       
+        buttonElement.addEventListener('click', () => {
+            console.log('Hello World2');
+        });
+
+        buttonElement.removeEventListener('click', eventListenen);
+
+
+       
+       
+       function greeting () {
+            console.log('Hello World');
+        }
+
+        greeting();
+
+        const num  = 2;
+        const arr = greeting;
+        console.log(arr);
+
+        arr();
+
+        const object = {
+            name: 'John',
+            age: 30,
+        }
+
+        function display ( param) {
+             console.log(param);    
+        }
+
+        display(2);
+
+        function run (param) {
+            param();
+        }
+
+        run(function() {
+            console.log('Hello World');
+        });
+        
+
+        setTimeout(function() {
+            console.log('Hello');
+        }, 200050909090);
+
+        console.log('World');
+
+        setInterval(function(){
+            console.log('hello');
+        } , 300000);
+
+      //  console.log('World'); 
+
+       const arrowFunction = () =>{//similar to funct
+           console.log('Hello World');
+       }
+
+       arrowFunction();
+
+       */
+
+      console.log( [11,2,2,3].filter((value,index)=>{
+       if(value > 2){
+           return true;
+       
+       
+         }else{ 
+             return false;
+         }
+         return value < 2;
+       }));
+
+    console.log( [1,2,3].map((value,index)=>{
+     return 2+value;
+    }));
+    
+    console.log( [1,2,3].map(value,index =>  2+value ));  
+        
+        
+    </script>
+</body>
+</html>
